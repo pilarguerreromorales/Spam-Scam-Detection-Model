@@ -4,7 +4,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipe
 from langdetect import detect
 
 # Load Spam Classifier Model
-checkpoint_path = "./checkpoint-7660"  # Adjust if different
+checkpoint_path = "../Outputs/roberta_detector_outputs/checkpoint-7660"  # Adjust if different
 tokenizer = AutoTokenizer.from_pretrained(checkpoint_path)
 model = AutoModelForSequenceClassification.from_pretrained(checkpoint_path)
 

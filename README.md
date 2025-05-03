@@ -1,7 +1,11 @@
 # Spam-Scam-Detection-Model
 
 ## Overview
-In this repository we have included all the process made to produce our Scam/Spam Detection Model in different folders and it
+In this project, we developed a dual framework that simulates both attacker and defender roles using fine-tuned LLMs, as spam/scam data to train our detection model was limited. At its core is a RoBERTa-based spam detector that achieved near-perfect classification performance. This framework powers **Scam Busters**, our proposed end-user application for real-time scam message detection.
+
+With the rise of accessible LLMs (Large Language Models), malicious messages can now be generated at scale with convincing language and fluency, making traditional keyword or volume based filters much less effective at detecting and flagging them as scam or spam. In response, this project tackles this challenge and introduces a practical, AI powered approach to detect and counter them effectively.
+
+To build this solution, we designed a dual framework that simulates both the attacker and defender roles using fine tuned LLMs, a necessary step due to limited availability of real world scam data. At the heart of our system is a RoBERTa based spam detector, which achieved a really good performance in classifying this type of messages. This framework powers Scam Busters, our prototype tool for real time scam detection.
 
 ## Setup Instructions (For Application Demo)
 1. **Clone the repository**

@@ -8,11 +8,11 @@ In this repository we have included all the process made to produce our Scam/Spa
 2. **Install dependencies**
    ```bash
    pip install -r requirements.txt
-3. **Download model outputs**
+3. **Download model outputs**  
    Follow the instructions in the `Outputs/` folder to download the file `roberta_detector_outputs.zip`. This folder contains the checkpoint for our trained RoBERTA Detector Model and is the one used in our application.
-4. **Unzip the model folder**
+4. **Unzip the model folder**  
    Uncompress the zip file and store the folder in the `Outputs/` folder (if not, adjust the file path in the Python code).
-5. **Run the prototype.**
+5. **Run the prototype.**  
 
 ## Repository Structure
 The following shocases the structure of the main folders in the repository. Additional README.md files have been included in some folders to facilitate usability and understanding.

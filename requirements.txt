@@ -1,0 +1,14 @@
+
+flask
+twilio
+transformers>=4.28.0
+torch>=1.13.0
+langdetect
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+tqdm
+openai
+wordcloud

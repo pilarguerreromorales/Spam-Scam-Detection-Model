@@ -26,6 +26,7 @@ The following shocases the structure of the main folders in the repository. Addi
 - **Outputs/** – Instructions and assets to download saved outputs for faster testing
 - **data/** – Original datasets and manual dataset download instructions (generated data should also be stored here)
 - **requirements.txt** – Python dependencies needed to run the project
+- **Report.** – Full project report with methodology, results, and conclusions.
 - **README.md** – This file
 
 
